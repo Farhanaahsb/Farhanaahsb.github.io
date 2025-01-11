@@ -1,0 +1,128 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Umum */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background: #f9f9f9;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: linear-gradient(45deg, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+}
+
+header h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #ffcc00;
+    color: #333;
+}
+
+/* Hero Section */
+.hero {
+    background: linear-gradient(to bottom, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+    margin-bottom: 30px;
+}
+
+.hero-content h2 {
+    font-size: 2.5rem;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background: #ffcc00;
+    color: #333;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    transition: background 0.3s ease;
+}
+
+.btn-primary:hover {
+    background: #333;
+    color: white;
+}
+
+/* Team Section */
+.team {
+    padding: 20px;
+    background: #f1f1f1;
+    text-align: center;
+}
+
+.team h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-member {
+    background: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    text-align: left;
+}
+
+/* Foto Detail */
+.photo-detail {
+    text-align: center;
+    padding: 20px;
+}
+
+.photo-detail img {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.photo-detail .description {
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
